@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name:  conta
+    description: Serviço de conta
+  output:
+    ansi:
+      enabled: Always
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
